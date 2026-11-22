@@ -1,0 +1,38 @@
+# 🔐 AWS S3 Encryption with KMS - Lab Completed
+
+## 📌 Overview
+This lab demonstrates how to secure data at rest in Amazon S3 using **AWS Key Management Service (KMS)** with **Server-Side Encryption (SSE-KMS)**.
+
+## ✅ What I Did
+
+1.  **Created a KMS Key**
+    * Key Name: `lab-kms-key`
+    * Type: Customer Managed Key
+    * Status: `Enabled`
+
+2.  **Created an S3 Bucket**
+    * Bucket Name: `kms-bucket-lab-2026`
+    * Region: us-east-1
+
+3.  **Enabled Default Encryption**
+    * Encryption Type: `SSE-KMS`
+    * KMS Key: `lab-kms-key`
+    * Bucket Key: `Disabled`
+
+## 🛠️ Services Used
+* Amazon S3
+* AWS KMS
+* AWS Management Console
+
+## 📸 Screenshots
+* S3 Default Encryption - SSE-KMS Enabled
+* KMS Key - lab-kms-key Enabled
+
+## 🎯 Key Learning
+Using SSE-KMS gives full control over encryption keys - we can manage permissions, key rotation, and auditing, unlike SSE-S3 which is AWS managed.
+
+## 👩‍💻 Author
+**Sehir Bano**
+Cloud Computing Student | Learning AWS
+
+#AWS #S3 #KMS #CloudSecurity #HandsOnLab
