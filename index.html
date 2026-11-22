@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWS S3 Encryption with KMS | Sehir Bano</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+  body{background:#0f172a;color:white;padding:20px}
+  .container{max-width:800px;margin:auto;background:#1e293b;border-radius:20px;padding:30px;box-shadow:0 10px 30px rgba(0,0,0,0.4)}
+  .badge{background:#ff9900;color:black;padding:6px 14px;border-radius:20px;font-weight:bold;font-size:13px}
+  h1{margin:15px 0 10px;font-size:32px}
+  h1 span{color:#ff9900}
+  p{color:#cbd5e1;line-height:1.6}
+  .card{background:#0f172a;border:1px solid #334155;border-radius:15px;padding:20px;margin:15px 0}
+  .card h3{color:#38bdf8;margin-bottom:10px}
+  .check{color:#22c55e;font-weight:bold}
+  .box{background:#020617;padding:15px;border-radius:10px;font-family:monospace;margin-top:10px;color:#a5f3fc}
+  .btn{display:inline-block;background:#ff9900;color:black;padding:12px 25px;border-radius:10px;text-decoration:none;font-weight:bold;margin-top:15px}
+  .footer{text-align:center;margin-top:20px;color:#94a3b8;font-size:14px}
+</style>
+</head>
+<body>
+<div class="container">
+  <span class="badge">✅ LAB COMPLETED</span>
+  <h1>AWS S3 Encryption <span>with KMS</span> 🔐</h1>
+  <p>Hands-on lab to secure Amazon S3 data at rest using AWS Key Management Service (KMS) with SSE-KMS encryption.</p>
+
+  <div class="card">
+    <h3>🎯 What I Did</h3>
+    <p><span class="check">✔</span> Created Customer Managed Key in AWS KMS</p>
+    <p><span class="check">✔</span> Created S3 Bucket <b>kms-bucket-lab-2026</b></p>
+    <p><span class="check">✔</span> Enabled Default Encryption with SSE-KMS</p>
+    <p><span class="check">✔</span> Verified Key Status = Enabled</p>
+  </div>
+
+  <div class="card">
+    <h3>⚙️ Lab Details</h3>
+    <div class="box">
+      KMS Key Name: lab-kms-key<br>
+      Bucket Name: kms-bucket-lab-2026<br>
+      Encryption Type: SSE-KMS<br>
+      Bucket Key: Disabled<br>
+      Status: Enabled ✅
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>💡 Key Learning</h3>
+    <p>Using SSE-KMS gives full control over encryption keys - we can manage permissions, key rotation, and auditing for better Cloud Security.</p>
+  </div>
+
+  <div class="card">
+    <h3>🛠️ Services Used</h3>
+    <p>Amazon S3 | AWS KMS | AWS Management Console</p>
+  </div>
+
+  <center><a class="btn" href="https://github.com/">View on GitHub ⭐</a></center>
+  <div class="footer">Made by <b>Sehir Bano</b> | Cloud Computing Student ☁️</div>
+</div>
+</body>
+</html>
